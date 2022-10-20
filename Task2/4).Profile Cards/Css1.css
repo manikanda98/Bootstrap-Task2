@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body {
+  margin-top: 80px;
+  background-color: #f1f2f4;
+  font-family: 'Open Sans Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profiles {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 800px;
+}
+.info-content {
+  display: flex;
+  height: 80px;
+}
+.btn {
+  background-color: #00b5ad;
+  display: block;
+  border-radius: 4px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-primary {
+  color: #fff;
+}
+p {
+  font-size: 16px;
+}
+.profile {
+  max-width: 200px;
+  height: auto;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 14px;
+}
+.profile a img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  position: absolute;
+  top: -40px;
+  left: calc((226px - 80px) / 2);
+}
+.online {
+  box-shadow: 0px 0px 10px 1px #00b5ad;
+}
+.offline {
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
+}
+hr {
+  border-top: 1px solid #ddd;
+  border-bottom: none;
+}
+.info {
+  margin-top: 20px;
+}
+small {
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #303030;
+}
+.verified {
+  display: inline-block;
+  background-position: -113px -256px;
+  height: 18px;
+  width: 18px;
+  background-image: url("https://instagramstatic-a.akamaihd.net/h1/sprites/core/e05e5e.png");
+  background-repeat: no-repeat;
+}
